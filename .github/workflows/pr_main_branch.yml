@@ -5,6 +5,10 @@ on:
     types:
       - opened
       - synchronize
+    branches:
+      - main
+    paths:
+      - 'force-app/**'
 
 jobs:
   validate-deployment:
